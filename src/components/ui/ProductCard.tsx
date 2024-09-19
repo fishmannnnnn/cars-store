@@ -10,8 +10,8 @@ interface Car {
 }
 const ProductCard = ({ data }: Props) => {
 	return (
-		<div className='p-4 max-w-[800px] w-[100%]'>
-			<div className='grid grid-cols-[218px,279px,160px] gap-6'>
+		<div className='p-4'>
+			<div className='grid grid-cols-[1.5fr,3fr,1fr] gap-6'>
 				<div className='max-w-[260px]'>
 					<Image
 						className='rounded '
